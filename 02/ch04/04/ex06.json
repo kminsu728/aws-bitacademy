@@ -52,7 +52,9 @@
 								"httpd": []
 					  		}
 						},
-
+						"source": {
+							"/var/www/html": "https://raw.githubusercontent.com/kminsu728/aws-practices/main/02/ch04/04/mysite.tar.gz"
+						},
 						"services": {
 							"sysvinit": {
 								"httpd": {
