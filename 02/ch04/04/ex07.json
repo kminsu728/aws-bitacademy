@@ -52,6 +52,9 @@
 								"httpd": []
 					  		}
 						},
+						"sources": {
+							"/var/www/html": "https://github.com/kminsu728/mysite/tarball/main"
+						},
 						"services": {
 							"sysvinit": {
 								"httpd": {

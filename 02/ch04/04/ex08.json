@@ -52,7 +52,9 @@
 								"nodejs" : []
 					  		}
 						},
-
+						"sources": {
+							"/usr/local/myapp": "https://github.com/kminsu728/myapp-basic/tarball/main"
+						},
 						"files": {
 							"/usr/lib/systemd/system/node-server.service": {
 								"content": {
